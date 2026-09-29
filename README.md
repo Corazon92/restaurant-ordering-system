@@ -53,7 +53,7 @@ Les fichiers Designer, ressources WinForms et le projet Visual Studio récupér�
 
 ## Utilisation
 
-Le code attend Microsoft Excel/Office Interop comme dans le projet d'origine. Les chemins de données sont maintenant locaux au projet. Pour l'accès administrateur, définir la variable d'environnement `RESTAURANT_ADMIN_PASSWORD`. Le projet Visual Studio se trouve dans `RestaurantOrderingSystem.csproj`.
+Le code attend Microsoft Excel/Office Interop comme dans le projet d'origine. Les chemins de données sont maintenant locaux au projet. Pour l'accès administrateur, définir la variable d'environnement `RESTAURANT_ADMIN_PASSWORD`. Le projet Visual Studio se trouve dans [`src/RestaurantOrderingSystem.csproj`](src/RestaurantOrderingSystem.csproj).
 
 ## Limites
 
