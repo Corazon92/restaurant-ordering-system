@@ -49,11 +49,11 @@ data/
 └── README.md
 ```
 
-Les fichiers Designer/ressources binaires de l'archive ne sont pas publiés automatiquement : le dépôt privilégie ici le code métier nettoyé. Une restauration complète de l'interface Visual Studio demanderait de réintégrer les fichiers Designer appropriés.
+Les fichiers Designer, ressources WinForms et le projet Visual Studio récupérés sont maintenant inclus. Les chemins locaux et l'ancien mot de passe administrateur ont été nettoyés avant publication.
 
 ## Utilisation
 
-Le code attend Microsoft Excel/Office Interop comme dans le projet d'origine. Les chemins de données sont maintenant locaux au projet. Pour l'accès administrateur, définir la variable d'environnement `RESTAURANT_ADMIN_PASSWORD`.
+Le code attend Microsoft Excel/Office Interop comme dans le projet d'origine. Les chemins de données sont maintenant locaux au projet. Pour l'accès administrateur, définir la variable d'environnement `RESTAURANT_ADMIN_PASSWORD`. Le projet Visual Studio se trouve dans `RestaurantOrderingSystem.csproj`.
 
 ## Limites
 
