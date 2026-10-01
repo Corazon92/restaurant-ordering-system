@@ -82,7 +82,7 @@
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(229, 27);
             this.textBoxPassword.TabIndex = 3;
-            this.textBoxPassword.Text = "123";
+            this.textBoxPassword.Text = "";
             this.textBoxPassword.UseSystemPasswordChar = true;
             this.textBoxPassword.TextChanged += new System.EventHandler(this.textBoxPassword_TextChanged);
             // 

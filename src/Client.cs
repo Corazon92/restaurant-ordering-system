@@ -663,7 +663,8 @@ private void DuplicateSection(Word.Document doc, string nomProduit, string prix)
         {
             textBoxmdp.Visible = true;
 
-            if (textBoxmdp.Text == Environment.GetEnvironmentVariable("RESTAURANT_ADMIN_PASSWORD"))
+            string? expectedPassword = Environment.GetEnvironmentVariable("RESTAURANT_ADMIN_PASSWORD");
+            if (!string.IsNullOrEmpty(expectedPassword) && textBoxmdp.Text == expectedPassword)
             {
                 // Afficher un message de validation
                 MessageBox.Show("Mot de passe correct. Accès autorisé ! 🐻", "Succès", MessageBoxButtons.OK, MessageBoxIcon.Information);
